@@ -1,0 +1,13 @@
+es\albarregas\dao\IPresidenteDAO.class
+es\albarregas\daofactory\MySQLDAOFactory.class
+es\albarregas\daofactory\DAOFactory.class
+es\albarregas\dao\PresidenteDAO.class
+es\albarregas\controllers\Conclusion.class
+es\albarregas\dao\IPaisDAO.class
+es\albarregas\beans\Pais.class
+es\albarregas\persistencia\HibernateUtil.class
+es\albarregas\filters\UTF8Filter.class
+es\albarregas\beans\Presidente.class
+es\albarregas\controllers\Controlador.class
+es\albarregas\controllers\Eleccion.class
+es\albarregas\dao\PaisDAO.class
