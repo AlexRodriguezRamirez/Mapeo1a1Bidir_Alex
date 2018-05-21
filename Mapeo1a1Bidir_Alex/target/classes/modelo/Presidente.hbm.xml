@@ -54,7 +54,7 @@ Contributor(s):
             <column name="nombrePresidente" length="30" not-null="true"/>
         </property>
                
-        <one-to-one cascade="all" class="es.albarregas.beans.Pais" name="pais"></one-to-one>
+        <one-to-one cascade="all" class="es.albarregas.beans.Pais" name="pais"/>
 
     </class>
 

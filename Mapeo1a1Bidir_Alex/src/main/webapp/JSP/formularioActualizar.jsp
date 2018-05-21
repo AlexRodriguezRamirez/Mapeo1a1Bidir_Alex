@@ -18,16 +18,17 @@
             <table>
                 <tr>
                     <td>Presidente</td>
-                    <td><input type="text" name="nombre" value="${presidente.nombrePresidente}" /></td>
+                    <td><input type="text" name="nombrePresidente" value="${presidente.nombrePresidente}" /></td>
                 </tr>
                 <tr>
                     <td>Pa&iacute;s</td>
-                    <td><input type="text" name="ape1" value="${presidente.pais.nombrePais}" /></td>
+                    <td><input type="text" name="nombrePais" value="${presidente.pais.nombrePais}" /></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td colspan="2"><input type="submit" name="enviar" value="Enviar" class="boton" /></td>
                 </tr>
+                <input type="hidden" name="idPais" value="${presidente.pais.idPais}"/>
             </table>
         </form>
         </div>

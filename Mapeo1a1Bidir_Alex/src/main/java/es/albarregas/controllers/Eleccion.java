@@ -59,12 +59,13 @@ public class Eleccion extends HttpServlet {
 
                 if (request.getParameter("t").equals("pais")) {
                     sesion.setAttribute("listaPais", listaPais);
+                    //atributo control que será utilizado para comprobar si se debe mostrar el listado de paises o de presidentes en listado.jsp
+                    sesion.setAttribute("control", "pais");
                 }
                 
                 else {
                     if (request.getParameter("t").equals("presidente")) {
                         sesion.setAttribute("listaPresi", listaPresi); 
-                        //atributo control que será utilizado para comprobar si se debe mostrar el listado de paises o de presidentes en listado.jsp
                         sesion.setAttribute("control", "presidente");
                     }
                 }
